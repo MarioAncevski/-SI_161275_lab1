@@ -3,7 +3,7 @@
 using namespace std;
 
 void printMyName () {
-	//TODO
+	cout<<"161275"<<endl;//TODO
 }
 
 void printMyIndex () {
