@@ -1,0 +1,35 @@
+Introduction sequence:
+	
+1. Introduction to Git commits (0.5 п.)
+ git commit
+ git commit
+
+2. Git branching (0.5 п.)
+
+git checkout -b bugFix
+3. Merging in Git (1.5 п.)
+git branch bugFix
+git commit
+git checkout master
+git commit
+git merge bugFix
+
+4. Rebase Introduction (1.5 п.)
+git checkout -b bugFix
+git commit 
+git checkout master
+git commit
+git checkout bugFix
+git rebase master
+
+Advanced topics
+
+1. Rebasing over 9000 times (2 п.)
+git  checkout bugFix
+git rebase master
+git checkout side
+git rebase c3’
+git checkout another
+git rebase c6’
+git checkout master
+git merge another
